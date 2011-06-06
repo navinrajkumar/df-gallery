@@ -1,0 +1,10 @@
+2.005
+1. fixed the 'duplicate entry with 'flickr_api_key' during installation if try reinstalling over an existing instance.
+2. Modified the install.php to be consistant for extension checks, permission checks and file exists checks.
+3. modified the setup process to just simply return 'admin' as the password and prompt the user to change the password.
+4. added simple 'DEV_MODE' constant for debugging
+5. added check if the database exists during install
+6. added upgrade task to change the Foreignkeys of the 'content' table from 'RESTRICT' TO 'CASCADE' so that the user doesn't need to manually delete each image in the album etc...
+
+2.004
+1. added verification for the gallery in the install.php, to check for php extensions, rewrite module, and file permissions.

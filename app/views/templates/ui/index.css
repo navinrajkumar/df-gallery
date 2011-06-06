@@ -1,0 +1,409 @@
+/**
+	GLOBAL
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float:left;
+}
+
+.hide{
+	display: none;
+}
+
+hr {
+	border: 1px solid #DDD;
+}
+
+p{
+	padding:5px;
+	line-height:18px;
+}
+
+.red{
+	color:#F00;
+}
+
+.field_error{
+	color:#F00;
+}
+
+/**
+FORM INPUT 
+*/
+select, .textbox {
+	border:1px solid #CCC;
+	font-size:11px;
+	padding:3px;
+	background:#FFF;
+}
+select {
+	padding:0px;
+	width:auto;
+	min-width: 125px;
+}
+select option{
+	padding-right:20px;
+}
+textarea{
+	border:1px solid #CCC;
+	font-size:11px;
+	padding:3px;
+	background:#FFF;
+}
+
+input.text, input[type='text'], input[type='password'] {
+	border:1px solid #CCC;
+	font-size:11px;
+	padding:3px;
+	background:#FFF;
+}
+input[type='text']:hover, input[type='password']:hover{
+	background:#B3E7FF;
+}
+
+.button, input[type='button'], input[type='submit'], input.button {
+	background:url(images/button_bg.png) repeat-x;
+	height:30px;
+	line-height:30px;
+	border:1px solid #a6d0e7;
+	padding:2px 10px;
+	font-weight:bold;
+	font-size:11px;
+	color:#1A4114;
+	text-decoration:none;
+}
+input.button {
+	height:30px;
+	line-height:12px;
+	padding:2px 10px;
+}
+.breadcrumb {
+	padding:5px;
+	color:#08356B;
+	text-decoration: none;
+}
+.breadcrumb:hover{
+	background-color:#EEF;
+	
+}
+
+body {
+	background:#000 url(images/header_bg.jpg) repeat-x;
+	color: #FFF;
+	font-size:12px;
+	font-family:"Tahoma","Trebuchet MS",Calibri, Arial, Helvetica, sans-serif;
+	letter-spacing: 0.25px;
+}
+div {
+	line-height:16px;
+}
+html{
+	overflow-y:scroll;
+}
+ul,li{
+	list-style:none;
+}
+
+
+
+.wrapper {
+	margin:0;
+	color:#111;
+}
+.main {
+	clear: both;
+	width: 760px;
+	margin:0 auto;
+}
+
+/**
+	HEADER
+*/
+.header{
+	height:1%;
+	overflow:hidden;
+}
+
+.header .title{
+	font-size:20px;
+	color:#FFF;
+	font-weight:bold;
+	float:left;
+	padding:50px 0 0 50px;
+}
+.header .logo{
+	background:url(images/df_logo.gif) no-repeat;
+	width:116px;
+	height:124px;
+	float:left;
+	
+}
+
+/**
+	ICONS
+*/
+.icon{
+	width:16px;
+	height:16px;
+	display:block;
+	float:left;
+}
+.sidenav .icon{
+	margin:4px;
+	_background-position:0 3px;
+}
+
+.ico_photos{
+	background:url(images/icons/photos.png) no-repeat;
+}
+.ico_options{
+	background:url(images/icons/options.png) no-repeat;
+}
+.ico_user{
+	background:url(images/icons/user.png) no-repeat;
+}
+.ico_logout{
+	background:url(images/icons/logout.png) no-repeat;
+}
+
+.ico_add{
+	background:url(images/icons/add.png) no-repeat;
+}
+
+.ico_edit{
+	background:url(images/icons/edit.png) no-repeat;
+}
+.ico_configure{
+	background:url(images/icons/configure.png) no-repeat;
+}
+.ico_build{
+	background:url(images/icons/build.png) no-repeat;
+}
+.ico_manage_photos{
+	background:url(images/icons/manage_photos.png) no-repeat;
+}
+.ico_delete{
+	background:url(images/icons/delete.png) no-repeat;
+}
+.ico_trash{
+	background:url(images/icons/trash.png) no-repeat;
+}
+
+
+.no_txt {
+	text-indent:-9999px;
+	font-size:0.1px;
+	overflow:hidden;
+}
+.icon_txt, a.content_title_link {
+	display:block;
+	float:left;
+	text-decoration: none;
+	text-indent: 16px;
+	background-position: 0 6px;
+	color:#333;
+	padding:5px;
+	margin:0 5px;
+}
+a.icon_txt:hover, a.content_title_link:hover {
+	background-color:#EEF;
+}
+
+a.content_title_link {
+	width:160px;
+}
+
+.padding5px{
+	padding:5px;
+}
+.padding_left{
+	padding-left:5px;
+}
+
+/**
+	SIDE NAVIGATION
+*/
+.sidenav {
+	background: #FFF repeat-x;
+	border-right:1px solid #CCC;
+	float: left;
+	width: 125px;
+}
+
+.sidenav .sidenav_btn{
+	width:100px;
+	height:25px;
+	background:url(images/btn_bg-100px.png) no-repeat 5px;
+	display:block;
+	text-decoration:none;
+	line-height:25px;
+	color:#000000;
+	padding:5px;
+}
+.sidenav .gallery_header{
+	font-size:12px;
+	font-weight:normal;
+	padding:5px;
+	border-bottom:2px solid #eee;
+	background:url(images/sidenav_bg.png) repeat-x 0 -25px;
+}
+
+
+
+/**
+	CONTENT
+*/
+.content_wrapper{
+	padding:10px;
+	background:#FFF;
+}
+.content {
+	float: right;
+	padding:0 10px 10px 0;
+	width:590px;
+}
+h2 {
+	font-size:16px;
+	color:#333;
+}
+.content_wrapper .content h3.block_heading, h3.block_heading, h2.block_heading{
+	font-size:14px;
+	color:#000;
+	background: url(images/blue_bg.png) repeat-x;
+	line-height: 30px;
+	vertical-align: middle;
+	padding:0 0 0 10px;
+}
+.h3_bg {
+	background:url(images/h3_bg.png) repeat-x;
+}
+.blue_bg {
+	background:url(images/blue_bg.png) repeat-x;
+}
+.sidenav_bg {
+	background:url(images/sidenav_bg.png) repeat-x;
+}
+h3.headings, .content_wrapper .content h3{
+	background:url(images/h3_bg.png) repeat-x;
+	padding:5px;
+	font-size:13px;
+}
+
+/**
+	TOOL TIP
+*/
+.tip_header {
+    background:#333;
+    border-left:1px solid #CCC;
+    border-right:1px solid #CCC;
+    border-top:1px solid #CCC;
+    padding:3px 2px;
+    width:200px;
+    font-weight:bold;
+    
+}
+ 
+ .tip_body {
+    background:#FFFFFF;
+    border-left:1px solid #CCC;
+    border-right:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    padding:2px 2px;
+    width:200px;
+    color:#333;
+
+ }
+
+/**
+MESSAGES
+*/
+.message_none {
+	border:none;
+}
+.message_green{
+	border:1px solid #EEE;margin:4px;
+	background: #EEFFEE;
+}
+.message_red {
+	border:1px solid #EEE;margin:4px;
+	background:#FFEEEE;
+}
+.message_grey {
+	border:1px solid #EEE;margin:4px;
+	background:#EEEEEE;
+}
+.message_white {
+	border:1px solid #EEE;margin:4px;
+	background:#F9F9F9;
+}
+
+/**
+	FOOTER
+*/
+.footer {
+	background:url(images/blue_bg.png) repeat-x;
+	color: #666;
+	text-align: center;
+	padding:6px;
+	border:1px solid #4999bf;
+}
+
+.footer a{color:#003366;}
+
+.properties .property{
+	padding: 5px;
+	clear:both;
+}
+.properties .prop_title{
+	float:left;
+	width:150px;
+	display:block;
+}
+.properties .prop_value{
+	width: 250px;
+}
+
+.preloading{
+	display: block;
+	width:20px;
+	height:20px;
+	background: url("images/preloader.gif") 4px 4px no-repeat;
+}
+
+
+
+
+
+
+
+
+.image_container {
+	width:575px;
+	padding:10px 0 0 35px;
+}
+
+.image_container .img_placeholder{
+	float:left;
+	text-align:center;
+	padding:10px;
+}
+.image_container .img_placeholder .img{
+	border:1px solid #EEE;
+	background:url(images/sidenav_bg.png) repeat-x;
+}
+
+
+
+
+
+/*******************
+	END OF CODE
+********************/

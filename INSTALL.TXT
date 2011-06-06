@@ -1,0 +1,8 @@
+Below are the steps to be followed while installing the gallery.
+
+1. Extract the zip file into a web directory.
+2. provide Read write access for "app/config/database.php" and "app/config/dfg/upgrade_state.php" files.
+3. Ensure that your server supports Apache rewrite module, with PHP 5+, php_json extension and php_curl extensions enabled.
+4. Install the gallery as provided in the support video.
+5. set the file permissions for the app/config/database.php to read permissions (chmod 644).
+6. Enjoy!!!
