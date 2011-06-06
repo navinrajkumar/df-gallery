@@ -1,0 +1,8 @@
+STEPS TO BE FOLLOWED DURING UPGRADES
+
+1. backup your current installation.
+2. backup your database.
+3. backup your app/config/database.php file
+4. extract the dfgallery package in any location on your system.
+4. copy all the files from the extraction directory to your existing installation, excluding the [app/config/database.php], [app/config/upgrade_state.php]
+5. login into the admin console, and run the upgrade.
